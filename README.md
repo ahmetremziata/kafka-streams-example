@@ -1,2 +1,7 @@
 # kafka-streams-example
-Kafka streams example
+Examples for kafka streams
+
+## Dependencies
+- Kafka
+- Kafka Streams
+- Confluent IO
