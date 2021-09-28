@@ -11,9 +11,9 @@ First for docker dependencies you run command in terminal.
 ```yml
   docker-compose up
 ```
-A few minutes later all dependencies for example occur in docker environment.
+A few minutes later all dependencies for kafka occur in docker environment.
 
-Then, for creating topic, producing event and consuming event you download kafka and run these commands in terminal;
+Then, for creating topic, producing event and consuming event you download kafka (https://kafka.apache.org/downloads) and run these commands in terminal;
 
 ```yml
 bin/kafka-topics.sh --zookeeper localhost:2181 --create --topic streams-plaintext-input --partitions 1 --replication-factor 1 --if-not-exists
