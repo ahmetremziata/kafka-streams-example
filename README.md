@@ -35,3 +35,11 @@ bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 \
 
 Then you do example for WordCount example;
 
+## Examples
+These application contains examples like below;
+- LineSplit example
+- Pipe Example
+- UpperCase Example
+- WordCount Example (With this example you can use ktable for updating data)
+- OrderFilter Example (With this example you can analyze object serializer and use filter lambda expression with kafka streams)
+
